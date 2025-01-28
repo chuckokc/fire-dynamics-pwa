@@ -1,0 +1,127 @@
+/* Setting up our main colors and fonts for the entire app */
+:root {
+    --primary-color: #841617;    /* Oklahoma crimson - perfect for your regional connection */
+    --header-color: #F5F7F9;     /* Cool steel white - modern and easy on the eyes */
+    --background-color: #ffffff; /* Keeping pure white for the main background */
+    --text-color: #333333;      /* Maintaining our matte black for text */
+}
+
+/* Basic settings for the whole document */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Setting up our main screen containers */
+.screen {
+    min-height: 100vh;  /* Make screens fill the full height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* For hiding elements like our main screen before login */
+.hidden {
+    display: none;
+}
+
+/* Styling the top bar of our app */
+header {
+    background-color: var(--header-color);
+    color: #333333;               /* Matte black text for contrast */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Styling the navigation area for switching between sheets */
+nav {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+/* Making our sheet selection buttons look professional */
+.sheet-button {
+    padding: 0.5rem 1rem;
+    background-color: #E5E7E9;    /* Slightly darker than our header color for better visibility */
+    color: #333333;               /* Maintaining matte black text */
+    border: 1px solid #D0D3D7;    /* Adding a subtle border to define the button shape */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;         /* Smooth transition for both background and border */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* Adding a very subtle shadow for depth */
+}
+
+.sheet-button:hover {
+    background-color: #D0D3D7;    /* Darker than normal state */
+    border-color: #C0C3C7;        /* Darker border on hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Slightly stronger shadow on hover */
+}
+
+/* Showing which sheet is currently selected */
+.sheet-button.active {
+    background-color: var(--primary-color);    /* Oklahoma crimson */
+    color: #ffffff;                           /* White text */
+    border-color: #6E1214;                    /* Darker border for the active state */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2); /* Inset shadow for "pressed" look */
+}
+
+
+/* Styling the main content area */
+#content {
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* Making our data tables look clean and professional */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Styling individual cells in our tables */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Making table headers stand out */
+th {
+    background-color: #f5f5f5;
+}
+
+/* Styling the login form */
+.access-form {
+    max-width: 300px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Making input fields look consistent */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling our buttons to look trustworthy and clickable */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
