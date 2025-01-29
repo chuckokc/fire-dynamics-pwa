@@ -159,3 +159,15 @@ button {
 .screen {
     padding-bottom: 100px;                   /* Makes room for footer */
 }
+
+/* Add this to your existing CSS */
+.category-header {
+    background-color: rgba(132, 22, 23, 0.1); /* Oklahoma crimson with 10% opacity */
+    font-weight: bold;
+}
+
+/* Make sure the text stays visible against the background */
+td.category-header, 
+th.category-header {
+    color: #333333;
+}

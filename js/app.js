@@ -53,27 +53,46 @@ function showSheet(index) {
     const sheet = workbookData.sheets[index];
     const content = document.getElementById('content');
     
-    // Update which navigation button is highlighted
+    // Update navigation buttons
     document.querySelectorAll('.sheet-button').forEach((btn, i) => {
         btn.classList.toggle('active', i === index);
     });
     
-    // Create a table to display the data
+    // Create table
     const table = document.createElement('table');
     sheet.data.forEach(row => {
         const tr = document.createElement('tr');
-        row.forEach(cell => {
+        row.forEach((cell, cellIndex) => {
             // Create header cells for text content, regular cells for numbers
             const td = document.createElement(
                 typeof cell === 'string' && cell.trim().length > 0 ? 'th' : 'td'
             );
-            td.textContent = cell || ''; // Handle empty cells gracefully
+            td.textContent = cell || '';
+
+            // Add category-header class to specific cells
+            const categoryHeaders = [
+                'Gases', 'Liquids', 'High-Temp Polymers & Composites',
+                'Textiles', 'Composites', 'Ordinary polymers', 'Wood'
+            ];
+            
+            // Check if this cell is a category header or its corresponding "Heat of Combustion"
+            if (categoryHeaders.includes(cell)) {
+                td.classList.add('category-header');
+                // Also style the "Heat of Combustion" cell next to it
+                if (row[cellIndex + 1] === 'Heat of Combustion') {
+                    const nextCell = document.createElement('th');
+                    nextCell.textContent = 'Heat of Combustion';
+                    nextCell.classList.add('category-header');
+                    tr.appendChild(nextCell);
+                    return; // Skip the next cell since we've already added it
+                }
+            }
+            
             tr.appendChild(td);
         });
         table.appendChild(tr);
     });
     
-    // Clear the previous content and show the new table
     content.innerHTML = '';
     content.appendChild(table);
 }
