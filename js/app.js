@@ -69,23 +69,21 @@ function showSheet(index) {
             );
             td.textContent = cell || '';
 
-            // Add category-header class to specific cells
+            // Define our category headers that need highlighting
             const categoryHeaders = [
-                'Gases', 'Liquids', 'High-Temp Polymers & Composites',
-                'Textiles', 'Composites', 'Ordinary polymers', 'Wood'
+                'Gases',
+                'Liquids',
+                'High-Temp Polymers & Composites',
+                'Textiles',
+                'Composites',
+                'Ordinary polymers',
+                'Wood'
             ];
             
-            // Check if this cell is a category header or its corresponding "Heat of Combustion"
-            if (categoryHeaders.includes(cell)) {
+            // Add highlighting to category headers and their "Heat of Combustion" cells
+            if (categoryHeaders.includes(cell) || 
+                (cell === 'Heat of Combustion' && categoryHeaders.includes(row[cellIndex - 1]))) {
                 td.classList.add('category-header');
-                // Also style the "Heat of Combustion" cell next to it
-                if (row[cellIndex + 1] === 'Heat of Combustion') {
-                    const nextCell = document.createElement('th');
-                    nextCell.textContent = 'Heat of Combustion';
-                    nextCell.classList.add('category-header');
-                    tr.appendChild(nextCell);
-                    return; // Skip the next cell since we've already added it
-                }
             }
             
             tr.appendChild(td);
