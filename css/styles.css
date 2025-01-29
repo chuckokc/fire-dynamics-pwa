@@ -125,3 +125,37 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+/* Footer styling */
+.app-footer {
+    background-color: var(--header-color);    /* Matches our header color */
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);  /* Subtle shadow at the top */
+}
+
+.app-footer .credits {
+    color: #333333;                          /* Matches our text color */
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.app-footer .feedback a {
+    color: var(--primary-color);             /* Uses your Oklahoma crimson */
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.app-footer .feedback a:hover {
+    color: #6E1214;                          /* Darker shade for hover */
+    text-decoration: underline;
+}
+
+/* Adjust main content to account for footer */
+.screen {
+    padding-bottom: 100px;                   /* Makes room for footer */
+}
