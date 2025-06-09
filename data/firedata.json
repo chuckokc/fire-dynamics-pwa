@@ -582,263 +582,173 @@
       ]
     },
     {
-      "name": "Greek Alphabet",
-      "data": [
-        [
-          "GREEK ALPHABET"
-        ],
-        [
-          "Includes phonetic pronunciation."
-        ],
-        [
-          "Uppercase",
-          "Lowercase",
-          "Name",
-          "Pronunciation"
-        ],
-        [
-          "Α",
-          "α",
-          "Alpha",
-          "AL-fah"
-        ],
-        [
-          "Β",
-          "β",
-          "Beta",
-          "BAY-tah"
-        ],
-        [
-          "Γ",
-          "γ",
-          "Gamma",
-          "GAM-ah"
-        ],
-        [
-          "Δ",
-          "δ",
-          "Delta",
-          "DEL-tah"
-        ],
-        [
-          "Ε",
-          "ε",
-          "Epsilon",
-          "EP-si-lon"
-        ],
-        [
-          "Ζ",
-          "ζ",
-          "Zeta",
-          "ZAY-tah"
-        ],
-        [
-          "Η",
-          "η",
-          "Eta",
-          "AY-tah"
-        ],
-        [
-          "Θ",
-          "θ",
-          "Theta",
-          "THAY-tah"
-        ],
-        [
-          "Ι",
-          "ι",
-          "Iota",
-          "eye-OH-tah"
-        ],
-        [
-          "Κ",
-          "κ",
-          "Kappa",
-          "KAP-ah"
-        ],
-        [
-          "Λ",
-          "λ",
-          "Lambda",
-          "LAM-dah"
-        ],
-        [
-          "Μ",
-          "μ",
-          "Mu",
-          "MYOO"
-        ],
-        [
-          "Ν",
-          "ν",
-          "Nu",
-          "NEW"
-        ],
-        [
-          "Ξ",
-          "ξ",
-          "Xi",
-          "ZEYE"
-        ],
-        [
-          "Ο",
-          "ο",
-          "Omicron",
-          "OM-e-kron"
-        ],
-        [
-          "Π",
-          "π",
-          "Pi",
-          "PIE"
-        ],
-        [
-          "Ρ",
-          "ρ",
-          "Rho",
-          "ROH"
-        ],
-        [
-          "Σ",
-          "σ",
-          "Sigma",
-          "SIG-mah"
-        ],
-        [
-          "Τ",
-          "τ",
-          "Tau",
-          "TOW (like towel)"
-        ],
-        [
-          "Υ",
-          "υ",
-          "Upsilon",
-          "OOP-si-lon"
-        ],
-        [
-          "Φ",
-          "φ",
-          "Phi",
-          "FIE"
-        ],
-        [
-          "Χ",
-          "χ",
-          "Chi",
-          "KYE"
-        ],
-        [
-          "Ψ",
-          "ψ",
-          "Psi",
-          "SEYE"
-        ],
-        [
-          "Ω",
-          "ω",
-          "Omega",
-          "oh-MAY-gah"
-        ],
-        [
-          "Source: Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
+        "name": "Alt & Symbol Codes",
+        "data": [
+          [
+            "ALT AND SYMBOL CODES FOR WINDOWS"
+          ],
+          [
+            "Hold the 'Alt' key and type the number code on your numeric keypad."
+          ],
+          [
+            "Symbol",
+            "Name",
+            "Alt Code"
+          ],
+          [
+            "Legal & Common Symbols"
+          ],
+          [
+            "§",
+            "Section Sign",
+            "Alt + 21"
+          ],
+          [
+            "°",
+            "Degree",
+            "Alt + 248"
+          ],
+          [
+            "±",
+            "Plus-Minus",
+            "Alt + 0177"
+          ],
+          [
+            "Superscripts"
+          ],
+          [
+            "¹",
+            "Superscript 1",
+            "Alt + 0185"
+          ],
+          [
+            "²",
+            "Superscript 2 (squared)",
+            "Alt + 0178"
+          ],
+          [
+            "³",
+            "Superscript 3 (cubed)",
+            "Alt + 0179"
+          ],
+          [
+            "Subscripts"
+          ],
+          [
+            "₀",
+            "Subscript 0",
+            "Alt + 8320"
+          ],
+          [
+            "₁",
+            "Subscript 1",
+            "Alt + 8321"
+          ],
+          [
+            "₂",
+            "Subscript 2",
+            "Alt + 8322"
+          ],
+          [
+            "Advanced Math Symbols"
+          ],
+          [
+            "×",
+            "Multiplication",
+            "Alt + 0215"
+          ],
+          [
+            "÷",
+            "Division",
+            "Alt + 0247"
+          ],
+          [
+            "≈",
+            "Approximately Equal",
+            "Alt + 247"
+          ],
+          [
+            "≠",
+            "Not Equal",
+            "Alt + 8800"
+          ],
+          [
+            "≤",
+            "Less Than or Equal",
+            "Alt + 8804"
+          ],
+          [
+            "≥",
+            "Greater Than or Equal",
+            "Alt + 8805"
+          ],
+          [
+            "√",
+            "Square Root",
+            "Alt + 251"
+          ],
+          [
+            "∞",
+            "Infinity",
+            "Alt + 236"
+          ],
+          [
+            "∑",
+            "Summation",
+            "Alt + 8721"
+          ],
+          [
+            "∫",
+            "Integral",
+            "Alt + 8747"
+          ],
+          [
+            "∂",
+            "Partial Differential",
+            "Alt + 8706"
+          ],
+          [
+            "Greek & Rate Symbols"
+          ],
+          [
+            "Δ",
+            "Delta (change in)",
+            "Alt + 916"
+          ],
+          [
+            "ρ",
+            "Rho (density)",
+            "Alt + 241"
+          ],
+          [
+            "σ",
+            "Sigma (Stefan-Boltzmann)",
+            "Alt + 229"
+          ],
+          [
+            "ṁ",
+            "Mass flow rate (m-dot)",
+            "m then Alt + 0775"
+          ],
+          [
+            "Q̇",
+            "Heat Release Rate (Q-dot)",
+            "Q then Alt + 0775"
+          ],
+          [
+            "Temperature Symbols"
+          ],
+          [
+            "°C",
+            "Celsius",
+            "Alt + 8451"
+          ],
+          [
+            "°F",
+            "Fahrenheit",
+            "Alt + 8457"
+          ]
         ]
-      ]
-    },
-    {
-      "name": "Alt & Symbol Codes",
-      "data": [
-        [
-          "ALT AND SYMBOL CODES FOR WINDOWS"
-        ],
-        [
-          "Hold the 'Alt' key and type the number code on your numeric keypad."
-        ],
-        [
-          "Symbol",
-          "Name",
-          "Alt Code"
-        ],
-        [
-          "Superscripts"
-        ],
-        [
-          "¹",
-          "Superscript 1",
-          "Alt + 0185"
-        ],
-        [
-          "²",
-          "Superscript 2 (squared)",
-          "Alt + 0178"
-        ],
-        [
-          "³",
-          "Superscript 3 (cubed)",
-          "Alt + 0179"
-        ],
-        [
-          "Subscripts"
-        ],
-        [
-          "₀",
-          "Subscript 0",
-          "Alt + 8320"
-        ],
-        [
-          "₁",
-          "Subscript 1",
-          "Alt + 8321"
-        ],
-        [
-          "₂",
-          "Subscript 2",
-          "Alt + 8322"
-        ],
-        [
-          "Common Math Symbols"
-        ],
-        [
-          "°",
-          "Degree",
-          "Alt + 248"
-        ],
-        [
-          "Δ",
-          "Delta (change in)",
-          "Alt + 916"
-        ],
-        [
-          "ρ",
-          "Rho (density)",
-          "Alt + 241"
-        ],
-        [
-          "σ",
-          "Sigma (Stefan-Boltzmann)",
-          "Alt + 229"
-        ],
-        [
-          "ṁ",
-          "Mass flow rate (m-dot)",
-          "m then Alt + 0775"
-        ],
-        [
-          "Q̇",
-          "Heat Release Rate (Q-dot)",
-          "Q then Alt + 0775"
-        ],
-        [
-          "×",
-          "Multiplication",
-          "Alt + 0215"
-        ],
-        [
-          "≈",
-          "Approximately Equal",
-          "Alt + 247"
-        ]
-      ]
-    }
+      }
   ]
 }
