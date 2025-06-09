@@ -107,6 +107,20 @@ function showSheet(index) {
         table.appendChild(tr);
     });
     
+    if (sheet.name === "Greek Alphabet" || sheet.name === "Alt & Symbol Codes") {
+        table.classList.add('reference-table'); // Add a class to the whole table
+
+        // Go through each row to add a class to the symbol cells
+        table.querySelectorAll('tr').forEach((tr, rowIndex) => {
+            if (rowIndex > 2) { // Skip the header rows
+                const firstCell = tr.querySelector('td, th');
+                if (firstCell) {
+                    firstCell.classList.add('symbol-cell');
+                }
+            }
+        });
+    }
+
     content.innerHTML = '';
     content.appendChild(table);
 }

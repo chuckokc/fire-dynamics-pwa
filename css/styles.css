@@ -171,3 +171,30 @@ td.category-header,
 th.category-header {
     color: #333333;
 }
+/* === NEW STYLES FOR REFERENCE SHEETS === */
+
+/* Style for the cells containing the symbols to make them bigger and centered */
+.symbol-cell {
+    font-size: 1.4em; /* Increase font size by 40% */
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Target our new reference tables specifically */
+.reference-table th,
+.reference-table td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* Tweak column widths for the Greek Alphabet and Alt Codes tables */
+.reference-table td:nth-child(1),
+.reference-table th:nth-child(1) {
+    width: 15%; /* Give the first column (the symbol) a fixed width */
+}
+
+.reference-table td:nth-child(3),
+.reference-table th:nth-child(3) {
+    width: 35%; /* Give the third column (Name/Alt Code) a fixed width */
+}
