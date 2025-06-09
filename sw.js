@@ -1,6 +1,6 @@
 // Give our app's storage system a name - like labeling a filing cabinet
 // IMPORTANT: Change this version number every time you deploy an update!
-const CACHE_NAME = 'fire-dynamics-v3S';
+const CACHE_NAME = 'fire-dynamics-v4S';
 
 // List all the files our app needs to work - like making a checklist
 const ASSETS = [
