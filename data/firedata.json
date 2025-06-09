@@ -1,477 +1,844 @@
 {
-    "sheets": [
-      {
-        "name": "Energy Release Properties of Materials",
-        "data": [
-          [
-            "ENERGY RELEASE PROPERTIES OF MATERIALS"
-          ],
-          [
-            "Polymers & Heat of Combustion  ΔHc (kJ/g)"
-          ],
-          [
-            "Gases",
-            "Heat of Combustion",
-            "Ordinary polymers",
-            "Heat of Combustion"
-          ],
-          [
-            "Methane",
-            "50",
-            "High-density polyethylene, HDPE",
-            "40"
-          ],
-          [
-            "Ethane",
-            "47.5",
-            "Polyethylene, PE",
-            "43.4"
-          ],
-          [
-            "Ethene",
-            "50.4",
-            "Polypropylene, PP",
-            "44"
-          ],
-          [
-            "Propane",
-            "46.5",
-            "Polystyrene, PS",
-            "35.8"
-          ],
-          [
-            "Carbon monoxide",
-            "10.1",
-            "Nylon",
-            "27.9"
-          ],
-          [
-            "Liquids",
-            "Heat of Combustion",
-            "Nylon 6",
-            "28.8"
-          ],
-          [
-            "n-Butane",
-            "45.7",
-            "Polyoxymethylene, POM",
-            "13.4"
-          ],
-          [
-            "n-Hexane",
-            "43.8",
-            "Polymethylmethacrylate, PMMA",
-            "24.2"
-          ],
-          [
-            "Heptane",
-            "44.6",
-            "Polybutylene terephthalate, PBT",
-            "20.9"
-          ],
-          [
-            "Gasoline",
-            "43.7",
-            "Acrylonitrile–butadiene–styrene, ABS",
-            "30"
-          ],
-          [
-            "Kerosene",
-            "43.2",
-            "ABS-FR",
-            "11.7"
-          ],
-          [
-            "Benzene",
-            "40",
-            "Polyurethane, PU foam",
-            "18.4-*26.3"
-          ],
-          [
-            "Acetone",
-            "30.8",
-            "Polyvinylchloride, PVC",
-            "9–11"
-          ],
-          [
-            "Ethanol",
-            "26.8",
-            "Chlorinated PVC",
-            "5.8"
-          ],
-          [
-            "Methanol",
-            "19.8",
-            "Polyester/glass fibers (30%)",
-            "16"
-          ],
-          [
-            "High-Temp Polymers & Composites",
-            "Heat of Combustion",
-            "Polyvinyl ester",
-            "22"
-          ],
-          [
-            "Polycarbonate, PC",
-            "21.9",
-            "Epoxy",
-            "25"
-          ],
-          [
-            "Cross linked polyethylene (XLPE)",
-            "23.8",
-            "Epoxy/glass fibers (69%)",
-            "27.5"
-          ],
-          [
-            "Polyetheretherketone, PEEK/glass fibers (30%)",
-            "20.5",
-            "Wood",
-            "Heat of Combustion"
-          ],
-          [
-            "Phenolic/glass fibers (45%)",
-            "22",
-            "Douglas fir",
-            "14.7"
-          ],
-          [
-            "Textiles",
-            "Heat of Combustion",
-            "Hemlock",
-            "13.3"
-          ],
-          [
-            "Wool",
-            "19.5",
-            "Plywood",
-            "11.9"
-          ],
-          [
-            "Acrylic fiber",
-            "27.5",
-            "Plywood, FR",
-            "11.2"
-          ],
-          [
-            "Composites",
-            "Heat of Combustion",
-            "Chipboard, FR",
-            "9.2"
-          ],
-          [
-            "Paper on gypsum",
-            "6.4",
-            "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
-          ],
-          [
-            "Wallpaper on rigid PU",
-            "18.9",
-            "*Fire protection handbook: Vol. I–II (20th ed.). (2008). NFPA."
-          ]
+  "sheets": [
+    {
+      "name": "Energy Release Properties of Materials",
+      "data": [
+        [
+          "ENERGY RELEASE PROPERTIES OF MATERIALS"
+        ],
+        [
+          "Polymers & Heat of Combustion  ΔHc (kJ/g)"
+        ],
+        [
+          "Gases",
+          "Heat of Combustion",
+          "Ordinary polymers",
+          "Heat of Combustion"
+        ],
+        [
+          "Methane",
+          "50",
+          "High-density polyethylene, HDPE",
+          "40"
+        ],
+        [
+          "Ethane",
+          "47.5",
+          "Polyethylene, PE",
+          "43.4"
+        ],
+        [
+          "Ethene",
+          "50.4",
+          "Polypropylene, PP",
+          "44"
+        ],
+        [
+          "Propane",
+          "46.5",
+          "Polystyrene, PS",
+          "35.8"
+        ],
+        [
+          "Carbon monoxide",
+          "10.1",
+          "Nylon",
+          "27.9"
+        ],
+        [
+          "Liquids",
+          "Heat of Combustion",
+          "Nylon 6",
+          "28.8"
+        ],
+        [
+          "n-Butane",
+          "45.7",
+          "Polyoxymethylene, POM",
+          "13.4"
+        ],
+        [
+          "n-Hexane",
+          "43.8",
+          "Polymethylmethacrylate, PMMA",
+          "24.2"
+        ],
+        [
+          "Heptane",
+          "44.6",
+          "Polybutylene terephthalate, PBT",
+          "20.9"
+        ],
+        [
+          "Gasoline",
+          "43.7",
+          "Acrylonitrile–butadiene–styrene, ABS",
+          "30"
+        ],
+        [
+          "Kerosene",
+          "43.2",
+          "ABS-FR",
+          "11.7"
+        ],
+        [
+          "Benzene",
+          "40",
+          "Polyurethane, PU foam",
+          "18.4-*26.3"
+        ],
+        [
+          "Acetone",
+          "30.8",
+          "Polyvinylchloride, PVC",
+          "9–11"
+        ],
+        [
+          "Ethanol",
+          "26.8",
+          "Chlorinated PVC",
+          "5.8"
+        ],
+        [
+          "Methanol",
+          "19.8",
+          "Polyester/glass fibers (30%)",
+          "16"
+        ],
+        [
+          "High-Temp Polymers & Composites",
+          "Heat of Combustion",
+          "Polyvinyl ester",
+          "22"
+        ],
+        [
+          "Polycarbonate, PC",
+          "21.9",
+          "Epoxy",
+          "25"
+        ],
+        [
+          "Cross linked polyethylene (XLPE)",
+          "23.8",
+          "Epoxy/glass fibers (69%)",
+          "27.5"
+        ],
+        [
+          "Polyetheretherketone, PEEK/glass fibers (30%)",
+          "20.5",
+          "Wood",
+          "Heat of Combustion"
+        ],
+        [
+          "Phenolic/glass fibers (45%)",
+          "22",
+          "Douglas fir",
+          "14.7"
+        ],
+        [
+          "Textiles",
+          "Heat of Combustion",
+          "Hemlock",
+          "13.3"
+        ],
+        [
+          "Wool",
+          "19.5",
+          "Plywood",
+          "11.9"
+        ],
+        [
+          "Acrylic fiber",
+          "27.5",
+          "Plywood, FR",
+          "11.2"
+        ],
+        [
+          "Composites",
+          "Heat of Combustion",
+          "Chipboard, FR",
+          "9.2"
+        ],
+        [
+          "Paper on gypsum",
+          "6.4",
+          "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
+        ],
+        [
+          "Wallpaper on rigid PU",
+          "18.9",
+          "*Fire protection handbook: Vol. I–II (20th ed.). (2008). NFPA."
         ]
-      },
-      {
-        "name": "Mass Flux Values",
-        "data": [
-          [
-            "MASS FLUX VALUES"
-          ],
-          [
-            "g/(m^2-s)"
-          ],
-          [
-            "Fuel",
-            "Mass Flux"
-          ],
-          [
-            "Liquefied propane",
-            "100-130"
-          ],
-          [
-            "Liquefied natural gas",
-            "80-100"
-          ],
-          [
-            "Benzene",
-            "90"
-          ],
-          [
-            "Butane",
-            "80"
-          ],
-          [
-            "Hexane",
-            "70-80"
-          ],
-          [
-            "Xylene",
-            "70"
-          ],
-          [
-            "JP-4",
-            "50-70"
-          ],
-          [
-            "Heptane",
-            "65-75"
-          ],
-          [
-            "Gasoline",
-            "50-60"
-          ],
-          [
-            "Acetone",
-            "40"
-          ],
-          [
-            "Methanol",
-            "22"
-          ],
-          [
-            "Polystyrene (granular)",
-            "38"
-          ],
-          [
-            "Polymethyl methacrylate (granular)",
-            "28"
-          ],
-          [
-            "Polyethylene (granular)",
-            "26"
-          ],
-          [
-            "Polypropylene (granular)",
-            "24"
-          ],
-          [
-            "Rigid polyurethane foam",
-            "22-25"
-          ],
-          [
-            "Flexible polyurethane foam",
-            "21-27"
-          ],
-          [
-            "Polyvinyl chloride (granular)",
-            "16"
-          ],
-          [
-            "Corrugated paper cartons",
-            "14"
-          ],
-          [
-            "Wood crib",
-            "11"
-          ],
-          [
-            "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
-          ]
+      ]
+    },
+    {
+      "name": "Mass Flux Values",
+      "data": [
+        [
+          "MASS FLUX VALUES"
+        ],
+        [
+          "g/(m^2-s)"
+        ],
+        [
+          "Fuel",
+          "Mass Flux"
+        ],
+        [
+          "Liquefied propane",
+          "100-130"
+        ],
+        [
+          "Liquefied natural gas",
+          "80-100"
+        ],
+        [
+          "Benzene",
+          "90"
+        ],
+        [
+          "Butane",
+          "80"
+        ],
+        [
+          "Hexane",
+          "70-80"
+        ],
+        [
+          "Xylene",
+          "70"
+        ],
+        [
+          "JP-4",
+          "50-70"
+        ],
+        [
+          "Heptane",
+          "65-75"
+        ],
+        [
+          "Gasoline",
+          "50-60"
+        ],
+        [
+          "Acetone",
+          "40"
+        ],
+        [
+          "Methanol",
+          "22"
+        ],
+        [
+          "Polystyrene (granular)",
+          "38"
+        ],
+        [
+          "Polymethyl methacrylate (granular)",
+          "28"
+        ],
+        [
+          "Polyethylene (granular)",
+          "26"
+        ],
+        [
+          "Polypropylene (granular)",
+          "24"
+        ],
+        [
+          "Rigid polyurethane foam",
+          "22-25"
+        ],
+        [
+          "Flexible polyurethane foam",
+          "21-27"
+        ],
+        [
+          "Polyvinyl chloride (granular)",
+          "16"
+        ],
+        [
+          "Corrugated paper cartons",
+          "14"
+        ],
+        [
+          "Wood crib",
+          "11"
+        ],
+        [
+          "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
         ]
-      },
-      {
-        "name": "Peak Heat Release Rate",
-        "data": [
-          [
-            "PEAK HEAT RELEASE RATE"
-          ],
-          [
-            "PHRR  (kW)"
-          ],
-          [
-            "Fuel",
-            "Weight (kg)",
-            "Weight (lb)",
-            "Peak HRR (kW)"
-          ],
-          [
-            "Trash bag, 42 L (11 gal) with mixed plastic and paper trash",
-            "1.1-3.4",
-            "2½-7½",
-            "140-350"
-          ],
-          [
-            "Cotton mattress",
-            "11.8-13.2",
-            "26-29",
-            "40-970"
-          ],
-          [
-            "Trash bag/paper trash",
-            "1.2-14.1",
-            "2.6-31",
-            "120-350"
-          ],
-          [
-            "PVC waiting room chair, metal frame",
-            "15.4",
-            "34",
-            "270"
-          ],
-          [
-            "Cotton easy chair",
-            "17.7-31.8",
-            "39-70",
-            "290-370"
-          ],
-          [
-            "Christmas tree, dry",
-            "6-20",
-            "13-44",
-            "3000-5000"
-          ],
-          [
-            "Polyurethane mattress",
-            "3.2-14.1",
-            "7-31",
-            "810-2630"
-          ],
-          [
-            "Polyurethane easy chair",
-            "12.2-27.7",
-            "27-61",
-            "1350-1990"
-          ],
-          [
-            "Polyurethane sofa",
-            "51.3",
-            "113",
-            "3120"
-          ],
-          [
-            "Gorbett, G., Pharr, J., & Rockwell, S. (2016). Fire dynamics (2nd ed.). Pearson."
-          ]
+      ]
+    },
+    {
+      "name": "Peak Heat Release Rate",
+      "data": [
+        [
+          "PEAK HEAT RELEASE RATE"
+        ],
+        [
+          "PHRR  (kW)"
+        ],
+        [
+          "Fuel",
+          "Weight (kg)",
+          "Weight (lb)",
+          "Peak HRR (kW)"
+        ],
+        [
+          "Trash bag, 42 L (11 gal) with mixed plastic and paper trash",
+          "1.1-3.4",
+          "2½-7½",
+          "140-350"
+        ],
+        [
+          "Cotton mattress",
+          "11.8-13.2",
+          "26-29",
+          "40-970"
+        ],
+        [
+          "Trash bag/paper trash",
+          "1.2-14.1",
+          "2.6-31",
+          "120-350"
+        ],
+        [
+          "PVC waiting room chair, metal frame",
+          "15.4",
+          "34",
+          "270"
+        ],
+        [
+          "Cotton easy chair",
+          "17.7-31.8",
+          "39-70",
+          "290-370"
+        ],
+        [
+          "Christmas tree, dry",
+          "6-20",
+          "13-44",
+          "3000-5000"
+        ],
+        [
+          "Polyurethane mattress",
+          "3.2-14.1",
+          "7-31",
+          "810-2630"
+        ],
+        [
+          "Polyurethane easy chair",
+          "12.2-27.7",
+          "27-61",
+          "1350-1990"
+        ],
+        [
+          "Polyurethane sofa",
+          "51.3",
+          "113",
+          "3120"
+        ],
+        [
+          "Gorbett, G., Pharr, J., & Rockwell, S. (2016). Fire dynamics (2nd ed.). Pearson."
         ]
-      },
-      {
-        "name": "Steady State Heat Release Rate",
-        "data": [
-          [
-            "STEADY STATE HEAT RELEASE RATE"
-          ],
-          [
-            "HRR  (Q̇)"
-          ],
-          [
-            "Fuel",
-            "HRR (Q̇)"
-          ],
-          [
-            "Burning cigarette",
-            "5 W"
-          ],
-          [
-            "Typical light bulb",
-            "60 W"
-          ],
-          [
-            "Burning candle",
-            "80 W"
-          ],
-          [
-            "Human being at normal exertion",
-            "100 W"
-          ],
-          [
-            "Burning wastepaper basket",
-            "100 kW"
-          ],
-          [
-            "Burning 1 m² pool of gasoline",
-            "2.5 MW"
-          ],
-          [
-            "Burning wood pallets, stacked to a height of 3 m",
-            "7 MW"
-          ],
-          [
-            "Burning polystyrene, 4.9 m high in 2 m² cartons",
-            "30-40 MW"
-          ],
-          [
-            "Gorbett, G., Pharr, J., & Rockwell, S. (2016). Fire dynamics (2nd ed.). Pearson."
-          ]
+      ]
+    },
+    {
+      "name": "Steady State Heat Release Rate",
+      "data": [
+        [
+          "STEADY STATE HEAT RELEASE RATE"
+        ],
+        [
+          "HRR  (Q̇)"
+        ],
+        [
+          "Fuel",
+          "HRR (Q̇)"
+        ],
+        [
+          "Burning cigarette",
+          "5 W"
+        ],
+        [
+          "Typical light bulb",
+          "60 W"
+        ],
+        [
+          "Burning candle",
+          "80 W"
+        ],
+        [
+          "Human being at normal exertion",
+          "100 W"
+        ],
+        [
+          "Burning wastepaper basket",
+          "100 kW"
+        ],
+        [
+          "Burning 1 m² pool of gasoline",
+          "2.5 MW"
+        ],
+        [
+          "Burning wood pallets, stacked to a height of 3 m",
+          "7 MW"
+        ],
+        [
+          "Burning polystyrene, 4.9 m high in 2 m² cartons",
+          "30-40 MW"
+        ],
+        [
+          "Gorbett, G., Pharr, J., & Rockwell, S. (2016). Fire dynamics (2nd ed.). Pearson."
         ]
-      },
-      {
-        "name": "Typical Peak Burning Rate ",
-        "data": [
-          [
-            "TYPICAL PEAK BURNING RATE"
-          ],
-          [
-            "& FIREPOWER VALUES"
-          ],
-          [
-            "Generic Item",
-            null,
-            "Estimated Burn Rate (g/s)",
-            "Estimated Firepower (kW)"
-          ],
-          [
-            "Small waste containers (18–40 L)",
-            null,
-            "3–6",
-            "100"
-          ],
-          [
-            "Large waste containers (70–120 L)",
-            null,
-            "5–10",
-            "300"
-          ],
-          [
-            "Chairs, wood and upholstered",
-            null,
-            "10–60",
-            "1200"
-          ],
-          [
-            "Sofas",
-            null,
-            "20–100",
-            "2000"
-          ],
-          [
-            "Beds",
-            null,
-            "20–140",
-            "2500"
-          ],
-          [
-            "Closet",
-            null,
-            "~40",
-            "1000"
-          ],
-          [
-            "Office",
-            null,
-            "~90",
-            "2300"
-          ],
-          [
-            "Bedroom",
-            null,
-            "~130",
-            "3300"
-          ],
-          [
-            "Kitchen",
-            null,
-            "~190",
-            "4800"
-          ],
-          [
-            "House",
-            null,
-            "~30,000",
-            "750,000"
-          ],
-          [
-            "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
-          ]
+      ]
+    },
+    {
+      "name": "Typical Peak Burning Rate ",
+      "data": [
+        [
+          "TYPICAL PEAK BURNING RATE"
+        ],
+        [
+          "& FIREPOWER VALUES"
+        ],
+        [
+          "Generic Item",
+          null,
+          "Estimated Burn Rate (g/s)",
+          "Estimated Firepower (kW)"
+        ],
+        [
+          "Small waste containers (18–40 L)",
+          null,
+          "3–6",
+          "100"
+        ],
+        [
+          "Large waste containers (70–120 L)",
+          null,
+          "5–10",
+          "300"
+        ],
+        [
+          "Chairs, wood and upholstered",
+          null,
+          "10–60",
+          "1200"
+        ],
+        [
+          "Sofas",
+          null,
+          "20–100",
+          "2000"
+        ],
+        [
+          "Beds",
+          null,
+          "20–140",
+          "2500"
+        ],
+        [
+          "Closet",
+          null,
+          "~40",
+          "1000"
+        ],
+        [
+          "Office",
+          null,
+          "~90",
+          "2300"
+        ],
+        [
+          "Bedroom",
+          null,
+          "~130",
+          "3300"
+        ],
+        [
+          "Kitchen",
+          null,
+          "~190",
+          "4800"
+        ],
+        [
+          "House",
+          null,
+          "~30,000",
+          "750,000"
+        ],
+        [
+          "Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
         ]
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "name": "t² Fire Growth",
+      "data": [
+        [
+          "T-SQUARED FIRE GROWTH"
+        ],
+        [
+          "The t-squared (t²) model describes fire growth using the equation: Q̇ = αt²"
+        ],
+        [
+          "Where:",
+          "Q̇ = Heat Release Rate (kW)",
+          "α = Fire growth coefficient (kW/s²)",
+          "t = time from effective ignition (s)"
+        ],
+        [
+          null
+        ],
+        [
+          "FIRE GROWTH CONSTANTS (α)"
+        ],
+        [
+          "Growth Rate",
+          "NFPA 204 α (kW/s²)"
+        ],
+        [
+          "Slow",
+          "0.00293"
+        ],
+        [
+          "Medium",
+          "0.0117"
+        ],
+        [
+          "Fast",
+          "0.0469"
+        ],
+        [
+          "Ultrafast",
+          "0.1876"
+        ],
+        [
+          null
+        ],
+        [
+          "CHARACTERISTIC TIME TO REACH 1 MW (t_g)"
+        ],
+        [
+          "Commodity",
+          "Time (t_g) in seconds"
+        ],
+        [
+          "Wood pallets, stacked 5 ft high",
+          "82-197"
+        ],
+        [
+          "Wood pallets, stacked 16 ft high",
+          "72-115"
+        ],
+        [
+          "Mail bags, filled, stored 5 ft high",
+          "107"
+        ],
+        [
+          "Paper, vertical rolls, stacked 20 ft high",
+          "16-26"
+        ],
+        [
+          "Cotton/polyester garments in 12 ft high rack",
+          "21-42"
+        ],
+        [
+          "'Ordinary combustibles' rack storage, 15-30 ft high",
+          "36-262"
+        ],
+        [
+          "PE letter trays, filled, stacked 5 ft high on cart",
+          "189"
+        ],
+        [
+          "PE trash barrels in cartons, stacked 15 ft high",
+          "53"
+        ],
+        [
+          "PE bottles in cartons, stacked 15 ft high",
+          "72"
+        ],
+        [
+          "PE pallets, stacked 5 ft high",
+          "145"
+        ],
+        [
+          "PE pallets, stacked 6-8 ft high",
+          "31-55"
+        ],
+        [
+          "PU mattress, single, horizontal",
+          "115"
+        ],
+        [
+          "PS tubs nested in cartons, stacked 15 ft high",
+          "115"
+        ],
+        [
+          "Source: Heskestad (1983); Klise and Milke (2003) as cited in Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
+        ]
+      ]
+    },
+    {
+      "name": "Greek Alphabet",
+      "data": [
+        [
+          "GREEK ALPHABET"
+        ],
+        [
+          "Includes phonetic pronunciation."
+        ],
+        [
+          "Uppercase",
+          "Lowercase",
+          "Name",
+          "Pronunciation"
+        ],
+        [
+          "Α",
+          "α",
+          "Alpha",
+          "AL-fah"
+        ],
+        [
+          "Β",
+          "β",
+          "Beta",
+          "BAY-tah"
+        ],
+        [
+          "Γ",
+          "γ",
+          "Gamma",
+          "GAM-ah"
+        ],
+        [
+          "Δ",
+          "δ",
+          "Delta",
+          "DEL-tah"
+        ],
+        [
+          "Ε",
+          "ε",
+          "Epsilon",
+          "EP-si-lon"
+        ],
+        [
+          "Ζ",
+          "ζ",
+          "Zeta",
+          "ZAY-tah"
+        ],
+        [
+          "Η",
+          "η",
+          "Eta",
+          "AY-tah"
+        ],
+        [
+          "Θ",
+          "θ",
+          "Theta",
+          "THAY-tah"
+        ],
+        [
+          "Ι",
+          "ι",
+          "Iota",
+          "eye-OH-tah"
+        ],
+        [
+          "Κ",
+          "κ",
+          "Kappa",
+          "KAP-ah"
+        ],
+        [
+          "Λ",
+          "λ",
+          "Lambda",
+          "LAM-dah"
+        ],
+        [
+          "Μ",
+          "μ",
+          "Mu",
+          "MYOO"
+        ],
+        [
+          "Ν",
+          "ν",
+          "Nu",
+          "NEW"
+        ],
+        [
+          "Ξ",
+          "ξ",
+          "Xi",
+          "ZEYE"
+        ],
+        [
+          "Ο",
+          "ο",
+          "Omicron",
+          "OM-e-kron"
+        ],
+        [
+          "Π",
+          "π",
+          "Pi",
+          "PIE"
+        ],
+        [
+          "Ρ",
+          "ρ",
+          "Rho",
+          "ROH"
+        ],
+        [
+          "Σ",
+          "σ",
+          "Sigma",
+          "SIG-mah"
+        ],
+        [
+          "Τ",
+          "τ",
+          "Tau",
+          "TOW (like towel)"
+        ],
+        [
+          "Υ",
+          "υ",
+          "Upsilon",
+          "OOP-si-lon"
+        ],
+        [
+          "Φ",
+          "φ",
+          "Phi",
+          "FIE"
+        ],
+        [
+          "Χ",
+          "χ",
+          "Chi",
+          "KYE"
+        ],
+        [
+          "Ψ",
+          "ψ",
+          "Psi",
+          "SEYE"
+        ],
+        [
+          "Ω",
+          "ω",
+          "Omega",
+          "oh-MAY-gah"
+        ],
+        [
+          "Source: Quintiere, J. G. (2016). Principles of fire behavior (2nd ed.). CRC Press."
+        ]
+      ]
+    },
+    {
+      "name": "Alt & Symbol Codes",
+      "data": [
+        [
+          "ALT AND SYMBOL CODES FOR WINDOWS"
+        ],
+        [
+          "Hold the 'Alt' key and type the number code on your numeric keypad."
+        ],
+        [
+          "Symbol",
+          "Name",
+          "Alt Code"
+        ],
+        [
+          "Superscripts"
+        ],
+        [
+          "¹",
+          "Superscript 1",
+          "Alt + 0185"
+        ],
+        [
+          "²",
+          "Superscript 2 (squared)",
+          "Alt + 0178"
+        ],
+        [
+          "³",
+          "Superscript 3 (cubed)",
+          "Alt + 0179"
+        ],
+        [
+          "Subscripts"
+        ],
+        [
+          "₀",
+          "Subscript 0",
+          "Alt + 8320"
+        ],
+        [
+          "₁",
+          "Subscript 1",
+          "Alt + 8321"
+        ],
+        [
+          "₂",
+          "Subscript 2",
+          "Alt + 8322"
+        ],
+        [
+          "Common Math Symbols"
+        ],
+        [
+          "°",
+          "Degree",
+          "Alt + 248"
+        ],
+        [
+          "Δ",
+          "Delta (change in)",
+          "Alt + 916"
+        ],
+        [
+          "ρ",
+          "Rho (density)",
+          "Alt + 241"
+        ],
+        [
+          "σ",
+          "Sigma (Stefan-Boltzmann)",
+          "Alt + 229"
+        ],
+        [
+          "ṁ",
+          "Mass flow rate (m-dot)",
+          "m then Alt + 0775"
+        ],
+        [
+          "Q̇",
+          "Heat Release Rate (Q-dot)",
+          "Q then Alt + 0775"
+        ],
+        [
+          "×",
+          "Multiplication",
+          "Alt + 0215"
+        ],
+        [
+          "≈",
+          "Approximately Equal",
+          "Alt + 247"
+        ]
+      ]
+    }
+  ]
+}
